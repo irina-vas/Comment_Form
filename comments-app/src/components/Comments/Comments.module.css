@@ -1,0 +1,27 @@
+.wrapper {
+  width: 60vw;
+  margin: 5vh auto;
+  background-color: #519294;
+  padding: 3vw;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px 7px rgba(4, 4, 4, 0.3);
+}
+
+.name {
+  padding: 0.5vw;
+}
+
+.comments {
+  background-color: #dff1ef;
+  margin-bottom: 1vw;
+  padding: 0.5vw;
+  border-radius: 5px;
+  color: #6f7070;
+  overflow: hidden;
+}
+
+.button {
+  display: flex;
+  justify-content:flex-end
+}
+

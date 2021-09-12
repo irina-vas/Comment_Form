@@ -1,0 +1,28 @@
+.submit_field {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button_submit {
+  padding: 1vw;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #124c46;
+  color: #cecece;
+  font-weight: 700;
+  width: 18vw;
+}
+
+.button_submit:hover {
+  background-color: #dff1ef;
+  color: #124c46;
+  box-shadow: 0px 1px 8px 7px rgba(4, 4, 4, 0.23);
+}
+
+@media screen and (max-width: 640px) {
+  .button_submit {
+    width: 60vw;
+    font-size: 0.8em;
+  }
+}

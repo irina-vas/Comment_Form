@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 16vw;
+}
+.comment_field {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 0.7rem;
+}
+
+.user_comment {
+  width: 30vw;
+  padding: 0.3vw;
+  border-radius: 3px;
+  outline: none;
+  border:none;
+  background-color: #dff1ef;
+  color: #727272;
+  letter-spacing: 0.08rem;
+  height: 10vw;
+  resize: none;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.user_comment::-webkit-scrollbar-track{
+  background-color: #e2e2e2;
+}
+
+.user_comment::-webkit-scrollbar{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.user_comment::-webkit-scrollbar-thumb{
+  border-radius: 100px;
+  background-color: #545454;
+}
+
+.user_comment::placeholder {
+  opacity: 1; 
+  transition: opacity 0.3s ease;
+}
+
+.user_comment:focus::placeholder {
+  opacity: 0;
+  border: none;
+}
+
+@media screen and (max-width: 640px) {
+  label {
+    font-size: 0.8em;
+  }
+}

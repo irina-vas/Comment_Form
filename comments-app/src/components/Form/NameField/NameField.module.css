@@ -1,0 +1,28 @@
+.name_field {
+  padding-bottom: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 16vw;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 0.7rem;
+}
+
+.user_name {
+  width: 30vw;
+  padding: 0.3vw;
+  border-radius: 3px;
+  outline: none;
+  border:none;
+  background-color: #dff1ef;
+  color: #727272;
+  letter-spacing: 0.08rem;
+}
+
